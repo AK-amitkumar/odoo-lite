@@ -1,7 +1,35 @@
-[![Build Status](http://runbot.odoo.com/runbot/badge/flat/1/11.0.svg)](http://runbot.odoo.com/runbot)
 [![Tech Doc](http://img.shields.io/badge/11.0-docs-875A7B.svg?style=flat&colorA=8F8F8F)](http://www.odoo.com/documentation/11.0)
 [![Help](http://img.shields.io/badge/11.0-help-875A7B.svg?style=flat&colorA=8F8F8F)](https://www.odoo.com/forum/help-1)
-[![Nightly Builds](http://img.shields.io/badge/11.0-nightly-875A7B.svg?style=flat&colorA=8F8F8F)](http://nightly.odoo.com/)
+
+Introduction
+============
+
+This is a light version of official <a href="https://github.com/odoo/odoo">Odoo repository</a>.
+
+* master branch
+
+    The initial code when fork from offical Odoo at commit 566ce21.
+* 11.0
+
+    The branch to be simplified.
+* others
+
+    To test some modifications on standard code.
+
+Modifications
+=============
+
+* Remove branches except 11.0.
+* Remove addons except base modules, you can get it from offical Odoo.
+
+TODO
+====
+
+* Remove files and only keep the core.
+* Try to modify some features for learning (will not be in master nor 11.0 branch)
+
+README of offical Odoo
+======================
 
 Odoo
 ----
