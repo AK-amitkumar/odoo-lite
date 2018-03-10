@@ -1,0 +1,7 @@
+<odoo>
+    <data>
+        <template id="hello">
+            Hello visitor!
+         </template>
+    </data>
+</odoo>

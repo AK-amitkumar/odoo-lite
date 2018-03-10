@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+        <record id="visitor_partner" model="res.partner">
+            <field name="name">Visitor</field>
+            <field name="customer" eval="False"/>
+            <field name="email">visitor</field>
+        </record>
+        <record id="visitor_user" model="res.users">
+            <field name="name">Visitor</field>
+            <field name="login">visitor</field>
+            <field name="password">visitor_password</field>
+            <field name="partner_id" ref="visitor_partner"/>
+            <field name="in_group_10">True</field>
+        </record>
+    </data>
+</odoo>
