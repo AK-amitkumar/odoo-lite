@@ -5,6 +5,7 @@ _build/
 .*
 !.gitignore
 !.mailmap
+!.odoo_real.conf
 # compiled python files
 *.py[co]
 __pycache__/
