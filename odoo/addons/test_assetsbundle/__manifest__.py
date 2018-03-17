@@ -8,7 +8,7 @@
     'depends': ['base'],
     'installable': True,
     'data': [
-        "views/views.xml",
+        "views/web_allowed_origin.xml",
     ],
     'auto_install': False,
 }

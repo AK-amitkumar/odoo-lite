@@ -1,0 +1,24 @@
+<odoo>
+  <data>
+
+    <record model="ir.ui.view" id="web_allowed_origin_list">
+      <field name="name">Allowed Origins</field>
+      <field name="model">web.allowed.origin</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="model_ids"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="web_allowed_origin_action_window">
+      <field name="name">Allowed origin window</field>
+      <field name="res_model">web.allowed.origin</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Allowed Origins" id="web_allowed_origin_action_menu_origin" parent="base.menu_security"
+              action="web_allowed_origin_action_window"/>
+  </data>
+</odoo>

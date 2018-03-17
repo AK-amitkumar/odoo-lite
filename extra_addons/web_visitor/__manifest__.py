@@ -19,5 +19,6 @@
     'data': [
         'web_visitor_data.xml',
         'views/templates.xml',
+        'views/web_allowed_origin.xml',
     ],
 }

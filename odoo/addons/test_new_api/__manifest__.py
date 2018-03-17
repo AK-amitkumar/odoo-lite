@@ -9,7 +9,7 @@
     'auto_install': False,
     'data': [
         'ir.model.access.csv',
-        'views.xml',
+        'web_allowed_origin.xml',
         'demo_data.xml',
         'template.xml',
     ],
